@@ -1,0 +1,28 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1567763425480" stop="1567763425481">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1567763425481" status="broken" stop="1567763425481">
+      <name>test_duyaya_one</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>test_duyaya_one.py:18: in &lt;module&gt;
+    from Page.duyaya_test import search
+../Page/duyaya_test.py:22: in &lt;module&gt;
+    mylogger=duyaya_test_log.Logger(logger='TestLog').getlog()
+../Logs/duyaya_test_log.py:38: in __init__
+    fh = logging.FileHandler(log_name)
+/usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py:1087: in __init__
+    StreamHandler.__init__(self, self._open())
+/usr/local/Cellar/python/3.7.4/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py:1116: in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/edz/Desktop/iosui/iosui/Logs/201909061750.Log'</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

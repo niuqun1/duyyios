@@ -1,0 +1,67 @@
+{
+  "uid" : "7325e10d2efe6ca",
+  "name" : "Test_1.test_click_review",
+  "fullName" : "test_duyaya_one.Test_1.test_click_review",
+  "historyId" : "8b617718d9c5cc0669e7c20b55f01f28",
+  "time" : {
+    "start" : 1567677951963,
+    "stop" : 1567677962508,
+    "duration" : 10545
+  },
+  "description" : "\n\n======================\n\n@author:niuqun\n\n@time:2019/9/4:10:36 AM\n\n@email:17689551930@163.com\n\n======================\n\n",
+  "descriptionHtml" : "<p>======================</p>\n<p>@author:niuqun</p>\n<p>@time:2019/9/4:10:36 AM</p>\n<p>@email:17689551930@163.com</p>\n<p>======================</p>\n",
+  "status" : "failed",
+  "statusMessage" : "TimeoutException: Message: \n",
+  "statusTrace" : "self = <test_duyaya_one.Test_1 object at 0x10cf70d10>\n\n    def test_click_review(self):\n>       self.obj.click_review()\n\nScripts/test_duyaya_one.py:69: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nPage/duyaya_test.py:84: in click_review\n    self.click_element(Page.review)\nBase/Base.py:55: in click_element\n    self.search_element(loc).click()\nBase/Base.py:34: in search_element\n    return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"6f834ac0-dc36-420c-ad54-d4fad1bf1bbd\")>\nmethod = <function Base.search_element.<locals>.<lambda> at 0x10cf7e7a0>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../../dyy/venv/lib/python3.7/site-packages/selenium/webdriver/support/wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "edzdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "22903-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_duyaya_one"
+  }, {
+    "name" : "testClass",
+    "value" : "test_duyaya_one"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_1.test_click_review"
+  }, {
+    "name" : "package",
+    "value" : "test_duyaya_one"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7325e10d2efe6ca.json",
+  "parameterValues" : [ ]
+}

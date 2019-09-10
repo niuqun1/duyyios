@@ -1,0 +1,130 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "edzdeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "22903-MainThread",
+      "children" : [ {
+        "name" : "Test_1.test_click_",
+        "uid" : "e117e6ff4d702d9f",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567677799538,
+          "stop" : 1567677807642,
+          "duration" : 8104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_click_what_rhis",
+        "uid" : "73023a76a2859d81",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567677926409,
+          "stop" : 1567677941781,
+          "duration" : 15372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_wx_login",
+        "uid" : "218b40311776e696",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567677721449,
+          "stop" : 1567677799535,
+          "duration" : 78086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_picnic",
+        "uid" : "4a2897a8a6d3b856",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567677913232,
+          "stop" : 1567677926407,
+          "duration" : 13175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_hungry",
+        "uid" : "910072a9dea8e9dd",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567677841889,
+          "stop" : 1567677913230,
+          "duration" : 71341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_on_the_fqrm",
+        "uid" : "27ec52b6208a8cfc",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567677941783,
+          "stop" : 1567677951961,
+          "duration" : 10178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_right",
+        "uid" : "df1b6f8bb8328a19",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567677836686,
+          "stop" : 1567677841887,
+          "duration" : 5201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_swit_click",
+        "uid" : "ccdf65cae3aea7e8",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567677807643,
+          "stop" : 1567677836685,
+          "duration" : 29042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test_1.test_click_review",
+        "uid" : "7325e10d2efe6ca",
+        "parentUid" : "d4e1383df45f8573142c88fe63003720",
+        "status" : "failed",
+        "time" : {
+          "start" : 1567677951963,
+          "stop" : 1567677962508,
+          "duration" : 10545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4e1383df45f8573142c88fe63003720"
+    } ],
+    "uid" : "6494d6769812734e4d74db94389c7094"
+  } ]
+}

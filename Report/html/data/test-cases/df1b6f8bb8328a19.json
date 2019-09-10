@@ -1,0 +1,61 @@
+{
+  "uid" : "df1b6f8bb8328a19",
+  "name" : "Test_1.test_right",
+  "fullName" : "test_duyaya_one.Test_1.test_right",
+  "historyId" : "7f5d1168fcc8d05d93de0e428548c35e",
+  "time" : {
+    "start" : 1567677836686,
+    "stop" : 1567677841887,
+    "duration" : 5201
+  },
+  "description" : "\n\n======================\n\n@author:niuqun\n\n@time:2019/9/4:10:36 AM\n\n@email:17689551930@163.com\n\n======================\n\n",
+  "descriptionHtml" : "<p>======================</p>\n<p>@author:niuqun</p>\n<p>@time:2019/9/4:10:36 AM</p>\n<p>@email:17689551930@163.com</p>\n<p>======================</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "edzdeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "22903-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_duyaya_one"
+  }, {
+    "name" : "testClass",
+    "value" : "test_duyaya_one"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_1.test_right"
+  }, {
+    "name" : "package",
+    "value" : "test_duyaya_one"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df1b6f8bb8328a19.json",
+  "parameterValues" : [ ]
+}
