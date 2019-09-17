@@ -37,7 +37,7 @@ def get_driver():
     desired_caps["xcodeOrgId"] = '2NJBNHP3UH'
     #驱动
     desired_caps["automationName"] = 'XCUITest'
-    desired_caps['app'] ='/Users/edz/Downloads/duyaya.ipa'
+    # desired_caps['app'] ='/Users/edz/Downloads/duyaya.ipa'
 
     return webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
 # .format(port)

@@ -1,0 +1,2 @@
+duyaya_test.py             106 INFO     进入发现如何上课
+duyaya_test.py             114 INFO     进入发现页面购买课程
